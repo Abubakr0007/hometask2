@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    grid-template-rows:60px 560px 650px 150px 150px 100px;
+    grid-template-areas:
+    "header header header header header header header header header header header header"
+    "back back back back back back back back back back back back"
+    "back2 back2 back2 back2 back2 back2 back3 back3 back3 back3 back3 back3"
+    "phone phone phone phone phone phone phone phone phone phone phone phone"
+    "textt textt textt textt textt textt textt textt textt textt textt textt"
+    ".  photo1 photo1  . photo2 photo2 . .   photo3 photo3 photo3 ."
+    ;
+}
+.header{
+    grid-area: header;
+    border: 1px solid;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+}
+.k1{
+    margin: 17px;
+    font-size: 24px;
+}
+.k2{
+    margin-top: 17px;
+    font-size: 24px;
+    margin-left: 1200px;
+}
+.k3{
+    color: #f7c119;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+}
+.k4{
+    color: lightgray;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 50px;
+}
+.back img{
+    margin-left: 350px;
+    width: 60%;
+    position: absolute;
+}
+.textt h1{
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+.phone ul{
+    list-style: none;
+    display: flex;
+}
+.photo1{
+    font-size: 16px;
+    width: 200px;
+}
+.back{
+    grid-area: back;
+    background-image: url(https://images01.nicepage.com/39/08/3908e0761ae2dff18854bc72f16b2918.jpeg);
+    background-size: cover;
+    opacity: 1;
+}
+.back2{
+    grid-area: back2;
+    background-color: #f7c119;
+}
+.back3{
+    grid-area: back3;
+    background-color: #f7c119;
+}
+.phone{
+    grid-area: phone;
+    border: 1px solid;
+    background-color: gray;
+    justify-content: center;
+}
+.textt{
+    grid-area: textt;
+    border: 1px solid;
+}
+.photo1{
+    grid-area: photo1;
+    border: 1px solid;
+}
+.photo2{
+    grid-area: photo2;
+    border: 1px solid;
+}
+.photo2{
+    grid-area: photo3;
+    border: 1px solid;
+}
+.j1{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.j2{
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.j3{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.j1 i{
+    color: #f7c119;
+}
+.jj1{
+    display: flex;
+    justify-content: center;
+}
